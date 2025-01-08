@@ -1,0 +1,39 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins",sans-serif;
+    width: 100%;
+    background: linear-gradient(180deg, #b9e2fc, #ffe5eb 60%);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 100px 0px;
+}
+.profile h3{
+     font-size: 21px;
+     font-weight: 600;
+}
+.profile div p{
+    margin-top: 30px;
+    width: 400px;
+    margin-left: 500px;
+    background: #ebebeb;
+    margin-bottom: 10px;
+    padding: 20px 0px;
+    box-shadow: 1px 2px 4px 1px #8d8d8d;
+}
+.profile div span{
+    font-weight: 700;
+}
+.profile button{
+    width: 150px;
+    border: none;
+    outline: none;
+    margin-left: 620px;
+    margin-top: 20px;
+    background: #ebebeb;
+    box-shadow: 1px 2px 4px 1px #8d8d8d;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
