@@ -16,7 +16,7 @@ const Login = () => {
     try {
       await signInWithEmailAndPassword(auth,email,password);
       console.log("User Logged in Successfully");
-      window.location.href ="/#/profile";
+      window.location.href ="/Ecommerce-Website2/#/login";
       toast.success("User Login Successfully!!",{position:'top-center'});
     } catch(error){
       console.log(error.message);
