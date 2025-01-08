@@ -27,7 +27,7 @@ const Profile = () => {
  async function Logout(){
     try{
        await auth.signOut()
-       window.location.href="/login";
+       window.location.href="/#/login";
        toast.success("User Logout Successfully!!",{position:'top-center'});
     } catch(error){
         toast.error("Something went wrong",{position:'bottom-center'});
